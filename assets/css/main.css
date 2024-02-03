@@ -996,6 +996,31 @@ input, select, textarea {
 				border-top: 0;
 			}
 
+	
+	/* CSS for skills table */
+.skills-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  }
+  
+  .skill-row {
+	margin: 10px;
+  }
+  
+  .skill-column {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .skill-column img {
+	margin: 5px;
+	width: 80px;
+	height: 80px;
+  }
+  
 /* Button */
 
 	input[type="submit"],
